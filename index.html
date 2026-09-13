@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ROSE | Premium Flower Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading -->
+    <div class="loader">
+        <div class="loader-logo">ROSE</div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#" class="logo">ROSE<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <button id="searchBtn">⌕</button>
+                <button id="cartBtn">🛒 <span id="cartCount">0</span></button>
+                <button class="menu-btn" id="menuBtn">☰</button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">WELCOME TO ROSE</p>
+
+            <h1>
+                Make Every
+                <span>Moment</span>
+                Beautiful.
+            </h1>
+
+            <p class="hero-text">
+                Discover elegant flowers and beautiful gifts,
+                carefully designed to make every special moment unforgettable.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#shop" class="btn primary">Shop Collection</a>
+                <a href="#about" class="btn secondary">Discover More</a>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <div class="circle"></div>
+
+            <img
+                src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85"
+                alt="Beautiful flowers"
+            >
+        </div>
+
+    </section>
+
+
+    <!-- Features -->
+    <section class="features">
+
+        <div class="feature">
+            <div class="feature-icon">✿</div>
+            <div>
+                <h3>Fresh Flowers</h3>
+                <p>Freshly selected flowers</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">♡</div>
+            <div>
+                <h3>Made With Love</h3>
+                <p>Beautifully arranged</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">🚚</div>
+            <div>
+                <h3>Fast Delivery</h3>
+                <p>Safe & quick delivery</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">✦</div>
+            <div>
+                <h3>Premium Quality</h3>
+                <p>Quality you can trust</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Categories -->
+    <section class="categories container" id="categories">
+
+        <div class="section-heading">
+            <p>EXPLORE</p>
+            <h2>Shop By Category</h2>
+        </div>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=700&q=80">
+                <div class="category-overlay">
+                    <h3>Roses</h3>
+                    <a href="#shop">Explore →</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1487070183336-b863922373d4?auto=format&fit=crop&w=700&q=80">
+                <div class="category-overlay">
+                    <h3>Bouquets</h3>
+                    <a href="#shop">Explore →</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1455582916367-25f75bfc6710?auto=format&fit=crop&w=700&q=80">
+                <div class="category-overlay">
+                    <h3>Gifts</h3>
+                    <a href="#shop">Explore →</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Products -->
+    <section class="products container" id="shop">
+
+        <div class="section-heading">
+            <p>OUR COLLECTION</p>
+            <h2>Best Sellers</h2>
+            <span>Beautiful flowers for beautiful moments.</span>
+        </div>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    <span class="badge">BEST SELLER</span>
+
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=700&q=85">
+
+                    <button class="quick-view">Quick View</button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>Classic Roses</h3>
+                        <p>Elegant red roses</p>
+                    </div>
+
+                    <strong>$35</strong>
+                </div>
+
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <span class="badge new">NEW</span>
+
+                    <img src="https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=700&q=85">
+
+                    <button class="quick-view">Quick View</button>
+
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>Pink Bloom</h3>
+                        <p>Soft pink arrangement</p>
+                    </div>
+
+                    <strong>$42</strong>
+                </div>
+
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img src="https://images.unsplash.com/photo-1495231916356-a86217efff12?auto=format&fit=crop&w=700&q=85">
+
+                    <button class="quick-view">Quick View</button>
+
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>White Elegance</h3>
+                        <p>Pure white flowers</p>
+                    </div>
+
+                    <strong>$39</strong>
+                </div>
+
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <span class="badge">POPULAR</span>
+
+                    <img src="https://images.unsplash.com/photo-1523691509543-c55fb32e5cee?auto=format&fit=crop&w=700&q=85">
+
+                    <button class="quick-view">Quick View</button>
+
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>Spring Garden</h3>
+                        <p>Colorful flower mix</p>
+                    </div>
+
+                    <strong>$49</strong>
+                </div>
+
+                <button class="add-cart">Add to Cart</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Offer -->
+    <section class="offer">
+
+        <div class="offer-content">
+
+            <p>SPECIAL OFFER</p>
+
+            <h2>
+                Give Something
+                <span>Beautiful.</span>
+            </h2>
+
+            <p>
+                Get 20% off your first order and make someone's day
+                a little more special.
+            </p>
+
+            <a href="#shop" class="btn white">Shop Now</a>
+
+        </div>
+
+        <div class="offer-image">
+            <img src="https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=900&q=85">
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section class="about container" id="about">
+
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1495231916356-a86217efff12?auto=format&fit=crop&w=900&q=85">
+        </div>
+
+        <div class="about-content">
+
+            <p class="small-title">OUR STORY</p>
+
+            <h2>
+                Flowers that
+                <span>Speak</span>
+                for you.
+            </h2>
+
+            <p>
+                At ROSE, we believe flowers are more than beautiful gifts.
+                They are a way to express love, gratitude and unforgettable
+                feelings.
+            </p>
+
+            <p>
+                Every bouquet is carefully designed with attention to
+                detail and delivered with love.
+            </p>
+
+            <a href="#contact" class="text-link">Learn More →</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Reviews -->
+    <section class="reviews">
+
+        <div class="section-heading">
+            <p>OUR CUSTOMERS</p>
+            <h2>What They Say</h2>
+        </div>
+
+        <div class="review-grid container">
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>
+                    “The bouquet was absolutely beautiful.
+                    Everything looked perfect and elegant.”
+                </p>
+                <h4>Sarah Ahmed</h4>
+                <span>Happy Customer</span>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>
+                    “Amazing quality and fast delivery.
+                    I will definitely order again!”
+                </p>
+                <h4>Mariam Ali</h4>
+                <span>Happy Customer</span>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>
+                    “A beautiful experience from choosing
+                    the flowers to receiving the order.”
+                </p>
+                <h4>Nour Hassan</h4>
+                <span>Happy Customer</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+
+        <div>
+            <p>STAY CONNECTED</p>
+            <h2>Get inspiration in your inbox.</h2>
+        </div>
+
+        <form id="newsletterForm">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+
+        <div class="footer-grid container">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">ROSE<span>.</span></a>
+
+                <p>
+                    Beautiful flowers for every beautiful moment.
+                </p>
+
+                <div class="socials">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Pinterest</a>
+                </div>
+
+            </div>
+
+            <div>
+                <h4>Shop</h4>
+                <a href="#shop">Best Sellers</a>
+                <a href="#categories">Categories</a>
+                <a href="#shop">New Arrivals</a>
+                <a href="#shop">Special Offers</a>
+            </div>
+
+            <div>
+                <h4>Information</h4>
+                <a href="#about">About Us</a>
+                <a href="#">Delivery</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+                <p>Cairo, Egypt</p>
+                <p>hello@rosestore.com</p>
+                <p>+20 100 000 0000</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 ROSE Store. All Rights Reserved.
+        </div>
+
+    </footer>
+
+
+    <!-- Cart Popup -->
+    <div class="cart-popup" id="cartPopup">
+
+        <div class="cart-box">
+
+            <button class="close-cart" id="closeCart">×</button>
+
+            <h2>Your Cart</h2>
+
+            <div id="cartItems">
+                <p class="empty-cart">Your cart is empty.</p>
+            </div>
+
+            <div class="cart-total">
+                <span>Total</span>
+                <strong>$<span id="cartTotal">0</span></strong>
+            </div>
+
+            <button class="checkout">Checkout</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
